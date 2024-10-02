@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bottg"
+version = "0.1.0"
+description = ""
+authors = ["Foxx <andrejpolisuk7502@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.1"
+coloredlogs = "^15.0.1"
+tortoise-orm = "^0.21.6"
+asyncpg = "^0.29.0"
+splogger = {git = "https://github.com/FoxikkS/MySPlogger"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
